@@ -1,0 +1,190 @@
+body {
+	margin: 0;
+	padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #001e38;
+}
+
+header {
+    background-color: #f1f1f1;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5),  0px 0px 10px rgba(0, 0, 0, 0.5),  0px 0px 10px rgba(0, 0, 0, 0.5), 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+#barnav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10%;  
+    margin-right: 15%;
+}
+
+#title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#title img {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+    border-radius: 100%;
+}
+
+#title h1 {
+    font-size: 36.5px;
+    color: transparent;
+    background-image: url('imagenes/olas.jpg'); 
+    background-clip: text; 
+    -webkit-background-clip: text; 
+    margin-left: 1%;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li {
+    margin-left: 5%;
+	list-style: none;
+} 
+
+#navbar li:first-child {
+    margin: 0;
+	list-style: none;
+} 
+
+#navbar a {
+    padding: 10px;
+    color: #0284c7;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+#navbar a:hover {
+    background-image: url('imagenes/olas.jpg');
+    color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5),  0px 0px 10px rgba(0, 0, 0, 0.5),  0px 0px 10px rgba(0, 0, 0, 0.5), 0px 0px 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#navbar a.active {
+    background-image: url('imagenes/olas.jpg');
+    color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5),  0px 0px 10px rgba(0, 0, 0, 0.5),  0px 0px 10px rgba(0, 0, 0, 0.5), 0px 0px 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    margin: 0;
+    background-color: #f2f2f2;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5),  0px 0px 10px rgba(0, 0, 0, 0.5),  0px 0px 10px rgba(0, 0, 0, 0.5), 0px 0px 10px rgba(0, 0, 0, 0.5);
+    padding: 1px;
+    color: #0284c7;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+}
+
+#colaborar {
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: justify;
+}
+
+.h2 {
+    background-color: #012e55;
+    border: 3px solid #00111f;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5), 0px 0px 10px rgba(0, 0, 0, 0.5), 0px 0px 10px rgba(0, 0, 0, 0.5), 0px 0px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+#agentes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+#agentes h2 {
+    text-align: center;
+}
+
+#aportar {
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#aportar h2 {
+    text-align: center;
+}
+
+#bares {
+    margin-left: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #012e55;
+    border: 3px solid #00111f;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5), 0px 0px 10px rgba(0, 0, 0, 0.5), 0px 0px 10px rgba(0, 0, 0, 0.5), 0px 0px 10px rgba(0, 0, 0, 0.5);
+    text-align: justify;
+}
+
+#bares img {
+    width: 100%;
+    height: 390px;
+}
+
+#tiendas {
+    margin-left: 3%;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #012e55;
+    border: 3px solid #00111f;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5), 0px 0px 10px rgba(0, 0, 0, 0.5), 0px 0px 10px rgba(0, 0, 0, 0.5), 0px 0px 10px rgba(0, 0, 0, 0.5);
+    text-align: justify;
+}
+
+
+#tiendas img {
+    width: 100%;
+    height: 390px;
+}
+
+#aliados {
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#marcas {
+    margin-left: 3%;
+    margin-right: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #012e55;
+    border: 3px solid #00111f;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5), 0px 0px 10px rgba(0, 0, 0, 0.5), 0px 0px 10px rgba(0, 0, 0, 0.5), 0px 0px 10px rgba(0, 0, 0, 0.5);
+    text-align: justify;
+}
+
+#marcas img {
+    width: 100%;
+    height: 390px;
+}
